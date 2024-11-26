@@ -7,7 +7,7 @@
 
 #### Summer in action
 
-![Summer](./summer.mp4)
+![Summer](./summer.gif)
 
 #### How to run
 
