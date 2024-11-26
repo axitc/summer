@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Summer",
+  "version": "1.0",
+  "description": "Summerize any webpage.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://localhost:5000/"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon/icon16.png",
+      "48": "icon/icon48.png",
+      "128": "icon/icon128.png"
+    }
+  }
+}

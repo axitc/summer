@@ -1,0 +1,53 @@
+LINKS
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Background_scripts
+https://github.com/orbitbot/chrome-extensions-examples
+https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world
+https://dev.to/paulasantamaria/creating-a-simple-chrome-extension-36m
+https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+
+OVERVIEW
+First of all, I must say that I loved working on this project.
+High stress + high excietment project. High octane energy.
+I wasted some time here and there but it was worth it.
+I am pretty satisfied with the structure and architecture of project.
+Coming with with architecture and plan was the happiest part.
+Gotta say the whole thing is highly modular.
+This modularity even allowed me to make chatbot and rapid testing.
+And above all, this idea is useful.
+Not knowing beforehand if it will actually work make it even more special.
+And I also learnt to use API with this project.
+And not to mention, a hell lot about LLMs and Prompting
+What I considered really hard sometime ago was done within 2 weeks span.
+Truly Wonderful.
+(Also wont be possible with Varun sir nagging for GenAI project. Thank you.)
+
+WALKTHROUGH
+I am not gonna state it. The source should make it obvious.
+
+FINDINGS
+huggingface and openai says 512 tokens are roughly 2000-2500 chars. (tokens*4)
+i instead used first 450 characters of site for faster inferences
+a lot of betterment came from trial and error
+a big part of making this project successful was choosing good prompts
+grammar matters in prompting
+usage of synonyms, different word structures have an effect
+a knowledge of dataset on which model is trained provides a leverage
+there is considerable difference in how llm interpret and reply to prompts
+turns out, the best prompts are ones that most resemble the training set
+see lamini and normal flan t5
+btw flan t5 rocked for this one
+wisdom - before this i hardly knew what was possible with llm. but now i do. working with tech closely gives an idea of how far we can go.
+giving chatgpt instruct to make extention in one message worked. sum-of-parts approach didnt
+picking with with great abstractions and architecture was the most fun part as well as the most innovative imo
+inspiration sometimes finds you working ;)
+
+FUTURE WORK
+summary is based on only first 450. lets try till token limit next time
+abort button for too long inference ?
+store summary for ai searcher. simultaneosly match words and semantics
+which will act as fuzzy history searcher
+tags to bookmarks
+also in-place text summarizer would look cool
+
+MISTAKES
+i could have wasted less time on trivial stuff
