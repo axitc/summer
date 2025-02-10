@@ -7,7 +7,7 @@
 
 #### Summer in action
 
-![Summer](./summer.mp4)
+https://github.com/user-attachments/assets/5b1ccc89-c55a-4506-9a63-224ce6aa6564
 
 #### How to run
 
